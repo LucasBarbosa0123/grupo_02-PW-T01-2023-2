@@ -444,3 +444,42 @@ body {
     background: #c40094;
     color: #fff;
 }
+
+.login-btn {
+        width: 50px;
+        height: 22px;
+        outline: none;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        pointer-events: auto;
+        background: #c40094;
+        border-color: #c40094;
+        color: #fff;
+}
+
+.ranking-btn {
+    width: 70px;
+    height: 22px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    pointer-events: auto;
+    background: #c40094;
+    border-color: #c40094;
+    color: #fff;
+}
+
+.criarQuiz-btn{
+    width: 80px;
+    height: 22px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    pointer-events: auto;
+    background: #c40094;
+    border-color: #c40094;
+    color: #fff;
+}
