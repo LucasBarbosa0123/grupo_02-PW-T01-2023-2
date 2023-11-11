@@ -1,0 +1,44 @@
+body {
+    min-height: 100vh;
+    background: #09001d;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.voltar-btn,
+.criar-btn
+{
+    width: 100px;
+    height: 45px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    pointer-events: auto;
+    background: #c40094;
+    border-color: #c40094;
+    color: #fff;
+}
+
+.proxima_questao-btn{
+    width: 180px;
+    height: 45px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    pointer-events: auto;
+    background: #c40094;
+    border-color: #c40094;
+    color: #fff;
+}
+
+.container{
+    color: white;
+    font-size: 30px;
+}
