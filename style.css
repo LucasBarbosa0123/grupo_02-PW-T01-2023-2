@@ -41,9 +41,22 @@ body {
 }
 
 .navbar a:hover,
-.navbar a.active {
-
-    color: #c40094;
+.navbar a.active,
+.home-btn,
+.criarQuiz-btn,
+.ranking-btn,
+.login-btn
+    {
+    width: 100px;
+    height: 45px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    pointer-events: auto;
+    background: #c40094;
+    border-color: #c40094;
+    color: #fff;
 }
 
 .main {
@@ -442,44 +455,5 @@ body {
 
 .buttons button:nth-child(2):hover{
     background: #c40094;
-    color: #fff;
-}
-
-.login-btn {
-        width: 50px;
-        height: 22px;
-        outline: none;
-        font-size: 16px;
-        font-weight: 600;
-        cursor: pointer;
-        pointer-events: auto;
-        background: #c40094;
-        border-color: #c40094;
-        color: #fff;
-}
-
-.ranking-btn {
-    width: 70px;
-    height: 22px;
-    outline: none;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    pointer-events: auto;
-    background: #c40094;
-    border-color: #c40094;
-    color: #fff;
-}
-
-.criarQuiz-btn{
-    width: 80px;
-    height: 22px;
-    outline: none;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    pointer-events: auto;
-    background: #c40094;
-    border-color: #c40094;
     color: #fff;
 }
