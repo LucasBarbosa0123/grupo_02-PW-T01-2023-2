@@ -45,11 +45,13 @@ body {
 .home-btn,
 .criarQuiz-btn,
 .ranking-btn,
-.login-btn
+.login-btn,
+.logout-button
     {
     width: 100px;
+    min-width: 50px;
     height: 45px;
-    outline: none;
+    outline: none;  
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;

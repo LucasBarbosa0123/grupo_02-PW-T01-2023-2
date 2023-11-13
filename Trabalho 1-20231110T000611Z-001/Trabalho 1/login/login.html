@@ -20,7 +20,7 @@
             <div class="error" id="password-required-error">Senha é obrigatória</div>
         </div>
         <div>
-            <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar senha</button>
+            <button type="button" class="clear" id="recover-password-button" disabled="true" onclick="recoverPassword()">Recuperar senha</button>
         </div>
         <div>
             <button type="button" class="solid" id="login-button" disabled="true" onclick="login()">Entrar</button>
@@ -34,23 +34,11 @@
 <link rel="stylesheet" href="styleLogin.css">
 <link rel="stylesheet" href="login,register.css">
 
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-auth-compat.js"></script>
+<script src="firebase-init.js"></script>
 <script src="scriptLogin.js"></script>
 <script src="validations.js"></script>
 <script src="loading.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-auth-compat.js"></script>
 
-<script type="module">
-    const firebaseConfig = {
-      apiKey: "AIzaSyBefd1nKOsOsOEtajDG3lU4By1CI2ml89k",
-      authDomain: "login-quiz-8b100.firebaseapp.com",
-      projectId: "login-quiz-8b100",
-      storageBucket: "login-quiz-8b100.appspot.com",
-      messagingSenderId: "791912071406",
-      appId: "1:791912071406:web:7d6e93a0016d2de43e73ff"
-    };
-    firebase.initializeApp(firebaseConfig);
-
-
-  </script>
 </html>

@@ -42,3 +42,10 @@ button[disabled]{
     color: white;
     display: none;
 }
+.form-field{
+    margin-bottom: 10px;
+}
+input, button {
+    padding: 10px;
+    width: -webkit-fill-available;
+}

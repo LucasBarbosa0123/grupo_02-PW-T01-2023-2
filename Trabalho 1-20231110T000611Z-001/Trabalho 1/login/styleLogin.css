@@ -5,21 +5,16 @@ body {
     align-items: center;
     height: 100vh;
 }
-form {
+label{
+    color: white;
+}
+form{
     width: 300px;
 }
 input {
     border: none;
 }
-input, button {
-    padding: 10px;
-    width: -webkit-fill-available;
-}
 button {
     cursor: pointer;
-    margin-bottom: 10px;
-}
-
-.form-field{
     margin-bottom: 10px;
 }
