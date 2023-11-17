@@ -42,3 +42,7 @@ body {
     color: white;
     font-size: 30px;
 }
+
+.alternativas{
+    display: flex;
+}

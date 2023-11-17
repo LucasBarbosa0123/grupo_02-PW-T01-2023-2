@@ -1,6 +1,6 @@
 firebase.auth().onAuthStateChanged(user =>{
     if(user){
-        window.location.href = "./../Home/home.html";
+        window.location.href = "./../Home/index.html";
     }
 })
 
@@ -34,7 +34,7 @@ function register(){
     const password = form.password().value;
     firebase.auth().createUserWithEmailAndPassword(email,password).then(() => {
         hideloading();
-        window.location.href = "./../Home/home.html"
+        window.location.href = "./../Home/index.html"
     }).catch(error => {
         hideloading();
         alert(getErrorMessage(error));

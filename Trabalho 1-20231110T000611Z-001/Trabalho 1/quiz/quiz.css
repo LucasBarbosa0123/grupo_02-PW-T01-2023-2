@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #09001d;
+    font-size: 120%;
+}
+label{
+    color: white;
+}
+form{
+    color: white;
+    width: 50vh;
+}
+.botaoEnviar{
+
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+    padding: 10px;
+    font-size: 120%;
+}
