@@ -1,9 +1,17 @@
-const nome = "";
-const pontuacao = 0;
+  firebase.auth().onAuthStateChanged(user => {
+    if (user) {
+        emailUsuario = user.email;
 
-
-window.onload = function(){
-const item = document.createElement("p");
-item.innerText = `Nome: ${nome}, Pontuação: ${pontuacao}`;
-document.getElementById('lista').appendChild(item);
-}
+        // Usando AJAX para enviar dados para o PHP
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "ranking.php", true);
+        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    
+        // Enviando dados como parâmetros POST
+        var data = "email=" + encodeURIComponent(emailUsuario);
+        xhr.send(data);
+        console.log("Email do usuário:", emailUsuario);
+    } else {
+        console.log("Usuário não autenticado");
+    }
+});

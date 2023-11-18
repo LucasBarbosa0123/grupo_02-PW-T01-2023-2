@@ -44,5 +44,5 @@ body {
 }
 
 .alternativas{
-    display: flex;
+    display: flexbox;
 }

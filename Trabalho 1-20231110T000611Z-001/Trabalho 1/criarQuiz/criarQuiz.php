@@ -30,7 +30,7 @@
             <input type="number" id="correta" name="correta" required>
 
             <div class="buttons">
-                <a href="./../Home/index.html"><button type="button" class="voltar-btn">Voltar</button></a>
+                <a href="./../Home/index.php"><button type="button" class="voltar-btn">Voltar</button></a>
                 <button type="submit" class="criar-btn">Criar</button>
             </div>
         </form>
