@@ -1,0 +1,42 @@
+body {
+    min-height: 100vh;
+    background: #09001d;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 20px rgb(0, 0, 0);
+    border-radius: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.voltar-btn{
+    width: 100px;
+    height: 45px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    pointer-events: auto;
+    background: #c40094;
+    border-color: #c40094;
+    color: #fff;
+}
+
+ol{
+    list-style-type: decimal;
+    padding: 0;
+}
+
+ol li{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-bottom: 1px solid;
+    font-size: 16px;
+}
