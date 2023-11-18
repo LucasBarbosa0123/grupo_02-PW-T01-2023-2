@@ -60,5 +60,6 @@ if(isset($_POST['email']) && strlen($_POST['email']) > 0){
         <p><input value="" name="email" placeholder="E-mail" type="text"></p>
         <p><input value="" name="senha" type="password"></p>
         <p><input value="Entrar" type="submit"></p>
+        <p><input value="Registrar" type="submit"></p>
 </body>
 </html>
